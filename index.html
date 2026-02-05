@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel booking website</title>
+    <link rel="stylesheet" href="style.css">
+  <!--  <link rel="stylesheet" href="script.js">-->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- header-->
+    <header class="header">
+     <a href="#" class="logo"><i class="fas fa-hotel">THE COZY INN</i</a>   
+     <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <link href="aboutus.html">
+        <a href="#Room">Room</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Review">Review</a>
+        <a href="#Faq">Faq</a>
+        <a href="login.html" class="btn">BOOK NOW</a>
+        
+     </nav>
+     <div id="Menu-btn" class="fas fas-bars"></div>
+    </header>
+    <!--end-->         
+    <!--Home-->
+    <section class="home" id="home">
+      <div class="swiper hpme-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background:url(intro.jpg)  no-repeat;">
+                <div class="content">
+                    <h3>It's Where Dreams Come True</h3>
+                    <a href ="#" class="btn">Visit our offer</a>
+                </div>
+            </div>
+        
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>   
+    </section>
+    <!--end-->
+<!--availability-->
+    <section class="availability">
+        <form action="">
+
+            <div class="box">
+                <p>Check In<span></span></p>
+                <input type="date" class="input">
+            </div>
+            <div class="box">
+                <p>Check Out<span></span></p>
+                <input type="date" class="input">
+            </div>
+            <div class="box">
+                <p>Adults<span></span></p>
+                <select name="adults" id="" class="input">
+               <option value="1">1 Adults</option> 
+               <option value="2">2 Adults</option>
+               <option value="3">3 Adults</option>
+               <option value="4">4 Adults</option>
+               <option value="5">5 Adults</option>
+               <option value="6">6 Adults</option>
+
+                </select>
+            </div>
+            <div class="box">
+                <p> Children <span></span></p>
+               
+             
+                <select name="child"  id="" class="input">
+               <option value="1">1 Child </option> 
+               <option value="2">2 Child</option>
+               <option value="3">3 Child</option>
+               <option value="4">4 Child</option>
+               <option value="5">5 Child</option>
+               <option value="6">6 Child</option>
+
+                </select>
+            </div>
+            <div class="box">
+                <p>Rooms<span></span></p>
+                <select name="Rooms" id="" class="input">
+               <option value="1">1 Rooms</option> 
+               <option value="2">2 Rooms</option>
+               <option value="3">3 Rooms</option>
+               <option value="4">4 Rooms</option>
+               <option value="5">5 Rooms</option>
+               <option value="6">6 Rooms</option>
+
+                </select>
+            </div>
+            <input type="submit" value="Check availability" class="btn">
+        </form>
+       
+    </section>
+    <!--end-->
+    <!--about-->
+    <section class="about" id="about">
+
+        <div class="row">
+            <div class="image">
+                <img src="au.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>About us</h3>
+                <p>Jaipur is a reminder of the State’s legendary cuisine legacy, from  the by-lanes of Old City, to the palatial spread of the iconic royal abodes; from the signature cuisine feasted upon by “Kalanders of Urs’’ at a “Musafir-Khana’’,to the contemporary global cuisine, THE COZY INN has a lot to offer.</p>
+                <p>Wellness, fitness and inner peace are gently promoted at THE COZY INN. Kaya Kalp – The Spa offers award-winning therapies. Alongside are professional services at Salon, serene swimming pool and the latest equipment in the high-power gym. Personalised attention awaits.</p>
+
+            </div>
+        </div>
+    </section>
+    <!--end-->
+    <!--rooms-->
+    <section class="room" id="room">
+     <h1 class="heading">Our Rooms</h1>
+     <div class="swiper room-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="price">$14/night</span>
+                    <img src="exclusive rooms.png">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <div class="content">
+                    <h3>Exclusive Rooms</h3>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+    
+                    </div>
+                
+                <a href="#"class="btn">BOOK NOW</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="price">$16/night</span>
+                    <img src="premuim suite.png">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <div class="content">
+                    <h3>Premium Suite Rooms</h3>
+                    
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars-half-alt"></i>
+
+                </div>
+                <a href="#"class="btn">BOOK NOW</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="price">$18/night</span>
+                    <img src="room4.webp">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <div class="content">
+                    <h3>Family Rooms</h3>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+    
+                    </div>
+                
+                <a href="#"class="btn">BOOK NOW</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$20/night</span>
+                        <img src="panoramic rooms.jpg">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Panoramic Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars-half-alt"></i>
+        
+                        </div>
+                    
+                    <a href="#"class="btn">BOOK NOW</a>
+                    </div>
+    
+        </div>
+        <div class="swiper-pagination"></div>
+     </div>
+
+    </section>
+    <!--end-->
+    <!--services-->
+    <section class="services">
+        <h1 class="heading">Our Services</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="finedine.png">
+                <h3>Fine Dine</h3>
+            </div>
+            <div class="box">
+                <img src="multicuisine.jpg">
+                <h3>Multi Cuisine</h3>
+            </div>
+            <div class="box">
+                <img src="shortbreak.png">
+                <h3>Short Break</h3>
+            </div>
+            <div class="box">
+                <img src="spa.jpg">
+                <h3>Spa</h3>
+            </div>   
+        </div>
+    </section>
+<!--end-->
+<!--gallery-->
+<section class="gallery">
+    <h1 class="heading">Our Gallery</h1>
+    <div class="swiper gallery-slider">
+        <div class="swiper-slide slide">
+            <img src="gallery1.jpg">
+            <div class="icon">
+                <i class="fas fa-magnnifying-glass-plus"></i>
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+            <img src="gallery4.jpg">
+            <div class="icon">
+                <i class="fas fa-magnnifying-glass-plus"></i>
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+            <img src="gallery6.jpg">
+            <div class="icon">
+                <i class="fas fa-magnnifying-glass-plus"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end-->
+<!--reservation-->
+<section class="reservation">
+    <h1 class="heading">BOOK NOW</h1>
+    <FORM ACTION="">
+        <div class="container">
+            <div class="box">
+                <P> Name<span>*</span></P>
+             <input type="text" class="input" placeholder="Your name">
+            </div>
+            <div class="box">
+                <P> Email<span>*</span></P>
+             <input type="text" class="input" placeholder="Your email">
+            </div>
+            <div class="box">
+                <P> Check In<span>*</span></P>
+             <input type="date" class="input">
+            </div>
+            <div class="box">
+                <P> Check Out<span>*</span></P>
+             <input type="date" class="input">
+            </div>
+            <div class="box">
+                <p>Adults<span>*</span></p>
+                <select name="adults" class="input">
+                    <option value="1">1 Adults</option>
+                    <option value="2">2 Adults</option>
+                    <option value="3">3 Adults</option>
+                    <option value="4">4 Adults</option>
+                    <option value="5">5 Adults</option>
+                    <option value="6">6 Adults</option>
+
+                </select>
+            </div>
+            <div class="box">
+                <p>Children<span>*</span></p>
+                <select name="child" class="input">
+                    <option value="1">1 child</option>
+                    <option value="2">2 child</option>
+                    <option value="3">3 child</option>
+                    <option value="4">4 child</option>
+                    <option value="5">5 child</option>
+                    <option value="6">6 child</option>
+
+                </select>
+            </div>
+            <div class="box">
+                <p>rooms<span>*</span></p>
+                <select name="rooms" class="input">
+                    <option value="1">1 rooms</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+
+                </select>
+            </div>
+            <div class="box">
+                <p>room type<span>*</span></p>
+                <select name="type" class="input">
+                    <option value="1">Exclusive room</option>
+                    <option value="2">Premium suite</option>
+                    <option value="3">Family room</option>
+                    <option value="4"> Panoramic room</option>
+                    
+
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="Check Availability" class="btn">
+    </FORM>
+</section>
+<!--end-->
+<!--footer-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i>+91 9123467890</a>
+            <a href="#"><i class="fas fa-envelope"></i>thecozyinn@gmail.com</a>
+            <a href="#"><i class="fas fa-map"></i>Jaipur,Rajathan</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#" ><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#" ><i class="fas fa-arrow-right"></i>About us</a>
+            <a href="#" ><i class="fas fa-arrow-right"></i>Rooms</a>
+        </div>
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#" ><i class="fas fa-arrow-right"></i>Refund Policy</a>
+            <a href="#" ><i class="fas fa-arrow-right"></i>Cancellation</a>
+            <a href="#" ><i class="fas fa-arrow-right"></i>Extra Charges</a>
+        </div>
+        <div class="box">
+            <h3>Social Links</h3>
+            <a href="#"><i  class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="#"><i  class="fab fa-Instagram"></i>Instagram</a>
+            <a href="#"><i  class="fab fa-Twitter"></i>Twitter</a>
+        </div>
+        <div class="credit">&copy; copyright @2023</div>
+    </div>
+
+</section>
+</body>
+</html>
